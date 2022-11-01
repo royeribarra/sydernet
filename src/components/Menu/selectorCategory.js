@@ -1,9 +1,24 @@
+import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
+import { DownOutlined } from '@ant-design/icons';
+import { Dropdown, Menu, Space } from 'antd';
+import React from 'react';
+
+function getItem(label, key, icon, children, type) {
+  return {
+    key,
+    icon,
+    children,
+    label,
+    type,
+  };
+}
+
 function SelectorCategory()
 {
   return(
     <div className="col-lg-3 d-none d-lg-block">
       <a className="btn shadow-none d-flex align-items-center justify-content-between bg-primary text-white w-100" data-toggle="collapse" href="#navbar-vertical" style={{height: "65px", marginTop: "-1px", padding: "0 30px"}}>
-        <h6 className="m-0">Categories</h6>
+        <h6 className="m-0">Categorías</h6>
         <i className="fa fa-angle-down text-dark"></i>
       </a>
       <nav className="collapse position-absolute navbar navbar-vertical navbar-light align-items-start p-0 border border-top-0 border-bottom-0 bg-light" id="navbar-vertical" style={{width: "calc(100% - 30px)", zIndex: "1"}}>
@@ -16,15 +31,16 @@ function SelectorCategory()
               <a href="" className="dropdown-item">Baby's Dresses</a>
             </div>
           </div>
-          <a href="" className="nav-item nav-link">Shirts</a>
-          <a href="" className="nav-item nav-link">Jeans</a>
-          <a href="" className="nav-item nav-link">Swimwear</a>
-          <a href="" className="nav-item nav-link">Sleepwear</a>
-          <a href="" className="nav-item nav-link">Sportswear</a>
-          <a href="" className="nav-item nav-link">Jumpsuits</a>
-          <a href="" className="nav-item nav-link">Blazers</a>
-          <a href="" className="nav-item nav-link">Jackets</a>
-          <a href="" className="nav-item nav-link">Shoes</a>
+          <a href="" className="nav-item nav-link">Portátiles</a>
+          <a href="" className="nav-item nav-link">Computadoras</a>
+          <a href="" className="nav-item nav-link">Componéntes</a>
+          <a href="" className="nav-item nav-link">Periféricos</a>
+          <a href="" className="nav-item nav-link">Impresoras</a>
+          <a href="" className="nav-item nav-link">Antivirus</a>
+          <a href="" className="nav-item nav-link">Videovigilancia</a>
+          <a href="" className="nav-item nav-link">Suministros</a>
+          <a href="" className="nav-item nav-link">Softwares</a>
+          <a href="" className="nav-item nav-link">Conectividad y redes</a>
         </div>
       </nav>
     </div>

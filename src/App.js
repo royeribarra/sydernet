@@ -7,6 +7,7 @@ import './assets/css/lib/owlcarousel/assets/owl.carousel.min.css';
 import Header from './components/Header/header';
 import Menu from './components/Menu/menu';
 import Footer from './components/Footer/footer';
+import 'antd/dist/antd.css';
 
 function App() {
   return (
