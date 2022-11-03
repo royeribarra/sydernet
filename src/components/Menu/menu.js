@@ -1,13 +1,29 @@
 import Banner from "../Banner/banner";
 import SelectorCategory from "./selectorCategory";
 import { Navbar, Nav, Container } from "react-bootstrap";
+import { useEffect, useState } from "react";
 
 function Menu()
 {
+  const [showCabecera, setShowCabecera] = useState(true);
+  const showCabeceraSecundaria = () => {
+    const nameUrl = window.location.pathname;
+    console.log(nameUrl);
+    if(nameUrl !== '/'){
+      setShowCabecera(false);
+    }
+  }
+
+  useEffect(()=> {
+    showCabeceraSecundaria();
+  }, [])
+
   return(
     <div class="container-fluid">
       <div class="row border-top px-xl-5">
-        <SelectorCategory />
+        {
+          showCabecera && <SelectorCategory />
+        } 
         <div class="col-lg-9">
           {/* <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
             <a href="" class="text-decoration-none d-block d-lg-none">
@@ -57,7 +73,9 @@ function Menu()
               </Navbar.Collapse>
             </Container>
           </Navbar>
-          <Banner />
+          {
+            showCabecera && <Banner />
+          }
         </div>
       </div>
     </div>

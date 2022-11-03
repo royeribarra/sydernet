@@ -11,12 +11,12 @@ import 'antd/dist/antd.css';
 
 function App() {
   return (
-    <div class="app">
+    <div className="app">
       <Header />
       <Menu />
       <MainRoutes />
       <Footer />
-      <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+      <a href="#" className="btn btn-primary back-to-top"><i className="fa fa-angle-double-up"></i></a>
     </div>
   );
 }

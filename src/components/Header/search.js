@@ -6,7 +6,7 @@ function Search()
   return(
     <div class="row align-items-center py-3 px-xl-5">
       <div class="col-lg-3 d-none d-lg-block">
-        <a href="" class="text-decoration-none">
+        <a href="/" class="text-decoration-none">
           <h1 class="m-0 display-5 font-weight-semi-bold">Synerbyte</h1>
           {/* <img class="m-0 display-5 font-weight-semi-bold" style={{ width: "30%" }} src={Logo} /> */}
         </a>
