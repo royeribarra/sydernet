@@ -1,12 +1,12 @@
 import Link from "./link";
-import Search from "./search";
+import SearchProduct from "./searchProduct";
 
 function Header()
 {
   return(
     <div class="container-fluid">
       <Link />
-      <Search />
+      <SearchProduct />
     </div>
   );
 }
