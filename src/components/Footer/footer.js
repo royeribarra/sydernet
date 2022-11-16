@@ -17,39 +17,37 @@ function Footer()
         <div className="col-lg-8 col-md-12">
           <div className="row">
             <div className="col-md-4 mb-5">
-              <h5 className="font-weight-bold text-dark mb-4">Quick Links</h5>
+              <h5 className="font-weight-bold text-dark mb-4">Comprar con confianza</h5>
               <div className="d-flex flex-column justify-content-start">
-                <a className="text-dark mb-2" href="index.html"><i className="fa fa-angle-right mr-2"></i>Home</a>
-                <a className="text-dark mb-2" href="shop.html"><i className="fa fa-angle-right mr-2"></i>Our Shop</a>
-                <a className="text-dark mb-2" href="detail.html"><i className="fa fa-angle-right mr-2"></i>Shop Detail</a>
-                <a className="text-dark mb-2" href="cart.html"><i className="fa fa-angle-right mr-2"></i>Shopping Cart</a>
-                <a className="text-dark mb-2" href="checkout.html"><i className="fa fa-angle-right mr-2"></i>Checkout</a>
-                <a className="text-dark" href="contact.html"><i className="fa fa-angle-right mr-2"></i>Contact Us</a>
+                <a className="text-dark mb-2" href="nosotros"><i className="fa fa-angle-right mr-2"></i>¿Qué hacemos?</a>
+                <a className="text-dark mb-2" href="servicios"><i className="fa fa-angle-right mr-2"></i>Servicios</a>
+                <a className="text-dark mb-2" href="categorias"><i className="fa fa-angle-right mr-2"></i>Productos</a>
+                <a className="text-dark mb-2" href="contacto"><i className="fa fa-angle-right mr-2"></i>Contacto</a>
               </div>
             </div>
             <div className="col-md-4 mb-5">
-              <h5 className="font-weight-bold text-dark mb-4">Quick Links</h5>
+              <h5 className="font-weight-bold text-dark mb-4">Nuestras marcas</h5>
               <div className="d-flex flex-column justify-content-start">
-                <a className="text-dark mb-2" href="index.html"><i className="fa fa-angle-right mr-2"></i>Home</a>
-                <a className="text-dark mb-2" href="shop.html"><i className="fa fa-angle-right mr-2"></i>Our Shop</a>
-                <a className="text-dark mb-2" href="detail.html"><i className="fa fa-angle-right mr-2"></i>Shop Detail</a>
-                <a className="text-dark mb-2" href="cart.html"><i className="fa fa-angle-right mr-2"></i>Shopping Cart</a>
-                <a className="text-dark mb-2" href="checkout.html"><i className="fa fa-angle-right mr-2"></i>Checkout</a>
-                <a className="text-dark" href="contact.html"><i className="fa fa-angle-right mr-2"></i>Contact Us</a>
+                <a className="text-dark mb-2" href="index.html"><i className="fa fa-angle-right mr-2"></i>HP</a>
+                <a className="text-dark mb-2" href="shop.html"><i className="fa fa-angle-right mr-2"></i>Lenovo</a>
+                <a className="text-dark mb-2" href="detail.html"><i className="fa fa-angle-right mr-2"></i>Apple</a>
+                <a className="text-dark mb-2" href="cart.html"><i className="fa fa-angle-right mr-2"></i>Asus</a>
+                <a className="text-dark mb-2" href="checkout.html"><i className="fa fa-angle-right mr-2"></i>Toshiba</a>
+                <a className="text-dark" href="contact.html"><i className="fa fa-angle-right mr-2"></i>Intel</a>
               </div>
             </div>
             <div className="col-md-4 mb-5">
-              <h5 className="font-weight-bold text-dark mb-4">Newsletter</h5>
+              <h5 className="font-weight-bold text-dark mb-4">Noticias</h5>
               <form action="">
                 <div className="form-group">
-                  <input type="text" className="form-control border-0 py-4" placeholder="Your Name" required="required" />
+                  <input type="text" className="form-control border-0 py-4" placeholder="Nombre" required="required" />
                 </div>
                 <div className="form-group">
-                  <input type="email" className="form-control border-0 py-4" placeholder="Your Email"
+                  <input type="email" className="form-control border-0 py-4" placeholder="Correo"
                         required="required" />
                 </div>
                 <div>
-                  <button className="btn btn-primary btn-block border-0 py-3" type="submit">Subscribe Now</button>
+                  <button className="btn btn-primary btn-block border-0 py-3" type="submit">Suscríbete ahora</button>
                 </div>
               </form>
             </div>
@@ -60,9 +58,9 @@ function Footer()
         <div className="col-md-6 px-xl-0">
           <p className="mb-md-0 text-center text-md-left text-dark">
               &copy; <a className="text-dark font-weight-semi-bold" href="#">SynerByte</a>. Todos los derechos reservados. Diseñado
-              por
-              <a className="text-dark font-weight-semi-bold" href="https://htmlcodex.com">SynerByte</a><br />
-              Distribuido por <a href="https://themewagon.com" target="_blank">SynerByte</a>
+              por 
+              <a className="text-dark font-weight-semi-bold" href="#"> SynerByte</a><br />
+              Distribuido por <a href="#" target="_blank">SynerByte</a>
           </p>
         </div>
         <div className="col-md-6 px-xl-0 text-center text-md-right">
