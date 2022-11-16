@@ -59,10 +59,10 @@ function Footer()
       <div className="row border-top border-light mx-xl-5 py-4">
         <div className="col-md-6 px-xl-0">
           <p className="mb-md-0 text-center text-md-left text-dark">
-              &copy; <a className="text-dark font-weight-semi-bold" href="#">Your Site Name</a>. All Rights Reserved. Designed
-              by
-              <a className="text-dark font-weight-semi-bold" href="https://htmlcodex.com">HTML Codex</a><br />
-              Distributed By <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+              &copy; <a className="text-dark font-weight-semi-bold" href="#">SynerByte</a>. Todos los derechos reservados. Diseñado
+              por
+              <a className="text-dark font-weight-semi-bold" href="https://htmlcodex.com">SynerByte</a><br />
+              Distribuido por <a href="https://themewagon.com" target="_blank">SynerByte</a>
           </p>
         </div>
         <div className="col-md-6 px-xl-0 text-center text-md-right">

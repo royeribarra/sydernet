@@ -1,8 +1,8 @@
 import React from "react";
-import Producto1 from "../../assets/images/product-1.jpg";
-import Producto2 from "../../assets/images/product-2.jpg";
-import Producto3 from "../../assets/images/product-3.jpg";
-import Producto4 from "../../assets/images/product-4.jpg";
+import Producto1 from "../../assets/images/productos/promocion 2.jpg";
+import Producto2 from "../../assets/images/productos/promocion 3.jpg";
+import Producto3 from "../../assets/images/productos/promocion 4.jpg";
+import Producto4 from "../../assets/images/productos/promocion 5.jpg";
 import Producto5 from "../../assets/images/product-5.jpg";
 import Producto6 from "../../assets/images/product-6.jpg";
 import Producto7 from "../../assets/images/product-7.jpg";
@@ -13,7 +13,7 @@ function Products()
   return(
     <div class="container-fluid pt-5">
       <div class="text-center mb-4">
-        <h2 class="section-title px-5"><span class="px-2">Trandy Products</span></h2>
+        <h2 class="section-title px-5"><span class="px-2">Productos</span></h2>
       </div>
       <div class="row px-xl-5 pb-3">
         <div class="col-lg-3 col-md-6 col-sm-12 pb-1">

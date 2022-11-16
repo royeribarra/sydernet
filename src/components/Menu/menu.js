@@ -2,6 +2,7 @@ import Banner from "../Banner/banner";
 import SelectorCategory from "./selectorCategory";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { useEffect, useState } from "react";
+import logo from "../../assets/images/logo2.png";
 import "./menu.css";
 
 function Menu()
@@ -32,6 +33,7 @@ function Menu()
                 <img
                   height="50"
                   alt="SynerByte"
+                  src={logo}
                 />
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />

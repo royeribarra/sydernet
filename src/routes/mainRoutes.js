@@ -8,8 +8,10 @@ import Portatiles from '../pages/Category/portatiles';
 import Contact from '../pages/Contact/contact';
 import Faqs from '../pages/Faqs/faqs';
 import Home from '../pages/home';
+import Nosotros from '../pages/Nosotros/nosotros';
 import ProductDetail from '../pages/ProductDetail/productDetail';
 import Products from '../pages/Products/products';
+import Servicios from '../pages/Servicios/servicios';
 import Soporte from '../pages/Soporte/soporte';
 
 const MainRoutes = () => {
@@ -20,6 +22,8 @@ const MainRoutes = () => {
         <Route exact path="/ayuda" element={<Ayuda />} />
         <Route exact path="/faqs" element={<Faqs />} />
         <Route exact path="/soporte" element={<Soporte />} />
+        <Route exact path="/nosotros" element={<Nosotros />} />
+        <Route exact path="/servicios" element={<Servicios />} />
         
         <Route path="/categorias/" element={<Products />}>
           <Route path="portatiles" element={<Portatiles />} />
