@@ -1,4 +1,8 @@
 import React from "react";
+import Producto1 from "../../assets/images/productos/promocion 2.jpg";
+import Producto2 from "../../assets/images/productos/promocion 3.jpg";
+import Producto3 from "../../assets/images/productos/promocion 4.jpg";
+import Producto4 from "../../assets/images/productos/promocion 5.jpg";
 
 function Products()
 {
@@ -6,11 +10,11 @@ function Products()
     <>
       <div className="container-fluid bg-secondary mb-5">
         <div className="d-flex flex-column align-items-center justify-content-center" style={{minHeight: "300px"}}>
-          <h1 className="font-weight-semi-bold text-uppercase mb-3">Our Shop</h1>
+          <h1 className="font-weight-semi-bold text-uppercase mb-3">Nuestra tienda</h1>
           <div className="d-inline-flex">
-            <p className="m-0"><a href="">Home</a></p>
+            <p className="m-0"><a href="/">Inicio</a></p>
             <p className="m-0 px-2">-</p>
-            <p className="m-0">Shop</p>
+            <p className="m-0">Productos</p>
           </div>
         </div>
       </div>
@@ -18,11 +22,11 @@ function Products()
         <div className="row px-xl-5">
           <div className="col-lg-3 col-md-12">
             <div className="border-bottom mb-4 pb-4">
-              <h5 className="font-weight-semi-bold mb-4">Filter by price</h5>
+              <h5 className="font-weight-semi-bold mb-4">Filtrar por precio</h5>
               <form>
                 <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                   <input type="checkbox" className="custom-control-input" checked id="price-all" />
-                  <label className="custom-control-label" for="price-all">All Price</label>
+                  <label className="custom-control-label" for="price-all">Todos los precios</label>
                   <span className="badge border font-weight-normal">1000</span>
                 </div>
                 <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
@@ -53,7 +57,7 @@ function Products()
               </form>
             </div>
             <div className="border-bottom mb-4 pb-4">
-              <h5 className="font-weight-semi-bold mb-4">Filter by color</h5>
+              <h5 className="font-weight-semi-bold mb-4">Filtrar por color</h5>
               <form>
                 <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                   <input type="checkbox" className="custom-control-input" checked id="color-all" />
@@ -88,7 +92,7 @@ function Products()
               </form>
             </div>
             <div className="mb-5">
-              <h5 className="font-weight-semi-bold mb-4">Filter by size</h5>
+              <h5 className="font-weight-semi-bold mb-4">Filtrar por tamaño</h5>
               <form>
                 <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                   <input type="checkbox" className="custom-control-input" checked id="size-all" />
@@ -129,7 +133,7 @@ function Products()
                 <div className="d-flex align-items-center justify-content-between mb-4">
                   <form action="">
                     <div className="input-group">
-                      <input type="text" className="form-control" placeholder="Search by name" />
+                      <input type="text" className="form-control" placeholder="Buscar por nombre" />
                       <div className="input-group-append">
                         <span className="input-group-text bg-transparent text-primary">
                           <i className="fa fa-search"></i>
@@ -140,7 +144,7 @@ function Products()
                   <div className="dropdown ml-4">
                     <button className="btn border dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
                       aria-expanded="false">
-                        Sort by
+                        Ordenar por
                     </button>
                     <div className="dropdown-menu dropdown-menu-right" aria-labelledby="triggerId">
                       <a className="dropdown-item" href="#">Latest</a>
@@ -153,7 +157,7 @@ function Products()
               <div className="col-lg-4 col-md-6 col-sm-12 pb-1">
                 <div className="card product-item border-0 mb-4">
                   <div className="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                    <img className="img-fluid w-100" src="img/product-1.jpg" alt="" />
+                    <img className="img-fluid w-100" src={Producto1} alt="" />
                   </div>
                   <div className="card-body border-left border-right text-center p-0 pt-4 pb-3">
                     <h6 className="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -162,15 +166,15 @@ function Products()
                     </div>
                   </div>
                   <div className="card-footer d-flex justify-content-between bg-light border">
-                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    <a href="/detalle-producto" className="btn btn-sm text-dark p-0"><i className="fas fa-eye text-primary mr-1"></i>Ver detalle</a>
+                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-shopping-cart text-primary mr-1"></i>Agregar</a>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-sm-12 pb-1">
                 <div className="card product-item border-0 mb-4">
                   <div className="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                    <img className="img-fluid w-100" src="img/product-2.jpg" alt="" />
+                    <img className="img-fluid w-100" src={Producto2} alt="" />
                   </div>
                   <div className="card-body border-left border-right text-center p-0 pt-4 pb-3">
                     <h6 className="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -179,15 +183,15 @@ function Products()
                     </div>
                   </div>
                   <div className="card-footer d-flex justify-content-between bg-light border">
-                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    <a href="/detalle-producto" className="btn btn-sm text-dark p-0"><i className="fas fa-eye text-primary mr-1"></i>Ver detalle</a>
+                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-shopping-cart text-primary mr-1"></i>Agregar</a>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-sm-12 pb-1">
                 <div className="card product-item border-0 mb-4">
                   <div className="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                    <img className="img-fluid w-100" src="img/product-3.jpg" alt="" />
+                    <img className="img-fluid w-100" src={Producto3} alt="" />
                   </div>
                   <div className="card-body border-left border-right text-center p-0 pt-4 pb-3">
                     <h6 className="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -196,15 +200,15 @@ function Products()
                     </div>
                   </div>
                   <div className="card-footer d-flex justify-content-between bg-light border">
-                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    <a href="/detalle-producto" className="btn btn-sm text-dark p-0"><i className="fas fa-eye text-primary mr-1"></i>Ver detalle</a>
+                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-shopping-cart text-primary mr-1"></i>Agregar</a>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-sm-12 pb-1">
                 <div className="card product-item border-0 mb-4">
                   <div className="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                    <img className="img-fluid w-100" src="img/product-4.jpg" alt="" />
+                    <img className="img-fluid w-100" src={Producto4} alt="" />
                   </div>
                   <div className="card-body border-left border-right text-center p-0 pt-4 pb-3">
                     <h6 className="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -213,15 +217,15 @@ function Products()
                     </div>
                   </div>
                   <div className="card-footer d-flex justify-content-between bg-light border">
-                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    <a href="/detalle-producto" className="btn btn-sm text-dark p-0"><i className="fas fa-eye text-primary mr-1"></i>Ver detalle</a>
+                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-shopping-cart text-primary mr-1"></i>Agregar</a>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-sm-12 pb-1">
                 <div className="card product-item border-0 mb-4">
                   <div className="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                    <img className="img-fluid w-100" src="img/product-5.jpg" alt="" />
+                    <img className="img-fluid w-100" src={Producto1} alt="" />
                   </div>
                   <div className="card-body border-left border-right text-center p-0 pt-4 pb-3">
                     <h6 className="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -230,15 +234,15 @@ function Products()
                     </div>
                   </div>
                   <div className="card-footer d-flex justify-content-between bg-light border">
-                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    <a href="/detalle-producto" className="btn btn-sm text-dark p-0"><i className="fas fa-eye text-primary mr-1"></i>Ver detalle</a>
+                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-shopping-cart text-primary mr-1"></i>Agregar</a>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-sm-12 pb-1">
                 <div className="card product-item border-0 mb-4">
                   <div className="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                    <img className="img-fluid w-100" src="img/product-6.jpg" alt="" />
+                    <img className="img-fluid w-100" src={Producto2} alt="" />
                   </div>
                   <div className="card-body border-left border-right text-center p-0 pt-4 pb-3">
                     <h6 className="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -247,15 +251,15 @@ function Products()
                     </div>
                   </div>
                   <div className="card-footer d-flex justify-content-between bg-light border">
-                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    <a href="/detalle-producto" className="btn btn-sm text-dark p-0"><i className="fas fa-eye text-primary mr-1"></i>Ver detalle</a>
+                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-shopping-cart text-primary mr-1"></i>Agregar</a>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-sm-12 pb-1">
                   <div className="card product-item border-0 mb-4">
                       <div className="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                          <img className="img-fluid w-100" src="img/product-7.jpg" alt="" />
+                          <img className="img-fluid w-100" src={Producto1} alt="" />
                       </div>
                       <div className="card-body border-left border-right text-center p-0 pt-4 pb-3">
                           <h6 className="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -264,15 +268,15 @@ function Products()
                           </div>
                       </div>
                       <div className="card-footer d-flex justify-content-between bg-light border">
-                          <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                          <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                          <a href="/detalle-producto" className="btn btn-sm text-dark p-0"><i className="fas fa-eye text-primary mr-1"></i>Ver detalle</a>
+                          <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-shopping-cart text-primary mr-1"></i>Agregar</a>
                       </div>
                   </div>
               </div>
               <div className="col-lg-4 col-md-6 col-sm-12 pb-1">
                 <div className="card product-item border-0 mb-4">
                   <div className="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                    <img className="img-fluid w-100" src="img/product-8.jpg" alt="" />
+                    <img className="img-fluid w-100" src={Producto2} alt="" />
                   </div>
                   <div className="card-body border-left border-right text-center p-0 pt-4 pb-3">
                     <h6 className="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -281,15 +285,15 @@ function Products()
                     </div>
                   </div>
                   <div className="card-footer d-flex justify-content-between bg-light border">
-                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    <a href="/detalle-producto" className="btn btn-sm text-dark p-0"><i className="fas fa-eye text-primary mr-1"></i>Ver detalle</a>
+                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-shopping-cart text-primary mr-1"></i>Agregar</a>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-sm-12 pb-1">
                 <div className="card product-item border-0 mb-4">
                   <div className="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                    <img className="img-fluid w-100" src="img/product-1.jpg" alt="" />
+                    <img className="img-fluid w-100" src={Producto3} alt="" />
                   </div>
                   <div className="card-body border-left border-right text-center p-0 pt-4 pb-3">
                     <h6 className="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -298,8 +302,8 @@ function Products()
                     </div>
                   </div>
                   <div className="card-footer d-flex justify-content-between bg-light border">
-                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    <a href="/detalle-producto" className="btn btn-sm text-dark p-0"><i className="fas fa-eye text-primary mr-1"></i>Ver detalle</a>
+                    <a href="" className="btn btn-sm text-dark p-0"><i className="fas fa-shopping-cart text-primary mr-1"></i>Agregar</a>
                   </div>
                 </div>
               </div>

@@ -15,7 +15,7 @@ function Category()
         <div className="col-lg-4 col-md-6 pb-1">
           <div className="cat-item d-flex flex-column border mb-4 contenedor-img-cat" style={{padding: "30px"}}>
             <p className="text-right">15 Productos</p>
-            <a href="" className="cat-img position-relative overflow-hidden mb-3">
+            <a href="/categoria/portatiles" className="cat-img position-relative overflow-hidden mb-3">
               <img className="img-fluid" src={Categoria1} alt="" />
             </a>
             <h5 className="font-weight-semi-bold m-0">Portátiles</h5>
@@ -24,7 +24,7 @@ function Category()
         <div className="col-lg-4 col-md-6 pb-1">
           <div className="cat-item d-flex flex-column border mb-4 contenedor-img-cat" style={{padding: "30px"}}>
             <p className="text-right">15 Productos</p>
-            <a href="" className="cat-img position-relative overflow-hidden mb-3">
+            <a href="/categoria/computadoras" className="cat-img position-relative overflow-hidden mb-3">
               <img className="img-fluid" src={Categoria2} alt="" />
             </a>
             <h5 className="font-weight-semi-bold m-0">Computadoras</h5>
@@ -33,7 +33,7 @@ function Category()
         <div className="col-lg-4 col-md-6 pb-1">
           <div className="cat-item d-flex flex-column border mb-4" style={{padding: "30px"}}>
             <p className="text-right">15 Productos</p>
-            <a href="" className="cat-img position-relative overflow-hidden mb-3">
+            <a href="/categoria/componentes" className="cat-img position-relative overflow-hidden mb-3">
               <img className="img-fluid" src={Categoria3} alt="" />
             </a>
             <h5 className="font-weight-semi-bold m-0">Componéntes</h5>
@@ -42,7 +42,7 @@ function Category()
         <div className="col-lg-4 col-md-6 pb-1">
           <div className="cat-item d-flex flex-column border mb-4" style={{padding: "30px"}}>
             <p className="text-right">15 Productos</p>
-            <a href="" className="cat-img position-relative overflow-hidden mb-3">
+            <a href="/categoria/perifericos" className="cat-img position-relative overflow-hidden mb-3">
               <img className="img-fluid" src={Categoria4} alt="" />
             </a>
             <h5 className="font-weight-semi-bold m-0">Periféricos</h5>
@@ -51,7 +51,7 @@ function Category()
         <div className="col-lg-4 col-md-6 pb-1">
           <div className="cat-item d-flex flex-column border mb-4" style={{padding: "30px"}}>
             <p className="text-right">15 Productos</p>
-            <a href="" className="cat-img position-relative overflow-hidden mb-3">
+            <a href="/categoria/impresoras" className="cat-img position-relative overflow-hidden mb-3">
               <img className="img-fluid" src={Categoria5} alt="" />
             </a>
             <h5 className="font-weight-semi-bold m-0">Impresoras</h5>
@@ -60,7 +60,7 @@ function Category()
         <div className="col-lg-4 col-md-6 pb-1">
           <div className="cat-item d-flex flex-column border mb-4" style={{padding: "30px"}}>
             <p className="text-right">15 Productos</p>
-            <a href="" className="cat-img position-relative overflow-hidden mb-3">
+            <a href="/categoria/antivirus" className="cat-img position-relative overflow-hidden mb-3">
               <img className="img-fluid" src={Categoria6} alt="" />
             </a>
             <h5 className="font-weight-semi-bold m-0">Antivirus</h5>

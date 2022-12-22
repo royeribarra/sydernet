@@ -27,7 +27,7 @@ function Menu()
           showCabecera && <SelectorCategory />
         } 
         <div class="col-lg-9">
-          <Navbar collapseOnSelect expand="lg" className="navBar">
+          <Navbar collapseOnSelect expand="lg" className="navBarMenu">
             <Container>
               <Navbar.Brand href="/home" className="logoNav-menu">
                 <img
