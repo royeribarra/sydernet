@@ -36,6 +36,9 @@ const MainRoutes = () => {
           <Route path="suministros" element={<Portatiles />} />
           <Route path="software" element={<Portatiles />} />
           <Route path="conectividad-redes" element={<Portatiles />} />
+
+  <Route path="royer" element={<Portatiles />} />
+  <Route path="royer" element={<Portatiles />} />
         </Route>
 
         <Route exact path="/detalle-producto" element={<ProductDetail />} />
